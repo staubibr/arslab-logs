@@ -1,0 +1,184 @@
+{
+  "name": "OnlineLibraryLOG",
+  "simulator": "Cadmium",
+  "type": "DEVS",
+  "models": [
+    {
+      "name": "enteronlinelibrary",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [ 
+        {
+	       "portB": "transitionin",
+	       "modelB": "searching",
+	       "portA": "transitionout",
+	       "modelA": "enteronlinelibrary"
+	        },
+	        {
+	       "portB": "transitionin",
+	       "modelB": "enteronlinelibrary",
+	       "portA": "transitionout",
+	       "modelA": "LibrayAddress"
+	        },
+	        {
+	       "portB": "transitionin",
+	       "modelB": "enteronlinelibrary",
+	       "portA": "transitionout",
+	       "modelA": "login"
+	        },
+	        {
+	       "portB": "transitionin",
+	       "modelB": "enteronlinelibrary",
+	       "portA": "transitionout",
+	       "modelA": "download"
+        }
+      ]
+    }, 
+    {
+      "name": "libraryaddr",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [ 
+        {
+	       "portB": "transitionin",
+	       "modelB": "enteronlinelibrary",
+	       "portA": "transitionout",
+	       "modelA": "libraryaddr"
+	        },
+	        {
+	       "portB": "transitionin",
+	       "modelB": "libraryaddr",
+	       "portA": "transitionout",
+	       "modelA": "searching"
+        }
+      ]
+    }, 
+    {
+      "name": "searching",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [
+        {
+	       "portB": "transitionin",
+	       "modelB": "searching",
+	       "portA": "transitionout",
+	       "modelA": "enteronlinelibrary"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "login",
+	       "portA": "transitionout",
+	       "modelA": "searching"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "libraryaddr",
+	       "portA": "transitionout",
+	       "modelA": "searching"
+        }
+      ]
+    }, 
+    {
+      "name": "login",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [
+        {
+	       "portB": "transitionin",
+	       "modelB": "enteronlinelibrary",
+	       "portA": "transitionout",
+	       "modelA": "login"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "login",
+	       "portA": "transitionout",
+	       "modelA": "searching"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "login",
+	       "portA": "transitionout",
+	       "modelA": "login"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "download",
+	       "portA": "transitionout",
+	       "modelA": "login"
+        }
+
+      ]
+    }, 
+    {
+      "name": "download",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [
+        {
+	       "portB": "transitionin",
+	       "modelB": "enteronlinelibrary",
+	       "portA": "transitionout",
+	       "modelA": "download"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "download",
+	       "portA": "transitionout",
+	       "modelA": "login"
+        }
+      ]
+    }
+  ],
+  "size": 7
+}

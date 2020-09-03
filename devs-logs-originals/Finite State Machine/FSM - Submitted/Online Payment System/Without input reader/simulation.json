@@ -1,0 +1,219 @@
+{
+  "name": "OnlinePaymentLOG",
+  "simulator": "Cadmium",
+  "type": "DEVS",
+  "models": [
+  	{
+      "name": "carddetails",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [ 
+        {
+	       "portB": "transitionin",
+	       "modelB": "wrongdetails",
+	       "portA": "transitionout",
+	       "modelA": "carddetails"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "carddetails",
+	       "portA": "transitionout",
+	       "modelA": "wrongdetails"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "carddetails",
+	       "portA": "transitionout",
+	       "modelA": "refunded"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "carddetails",
+	       "portA": "transitionout",
+	       "modelA": "aborted"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "carddetails",
+	       "portA": "transitionout",
+	       "modelA": "completed"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "confirmdetails",
+	       "portA": "transitionout",
+	       "modelA": "carddetails"
+        }     
+      ]
+    },
+	{
+      "name": "wrongdetails",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [
+        {
+	       "portB": "transitionin",
+	       "modelB": "wrongdetails",
+	       "portA": "transitionout",
+	       "modelA": "carddetails"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "carddetails",
+	       "portA": "transitionout",
+	       "modelA": "wrongdetails"
+        }
+      ]
+    },
+    {
+      "name": "aborted",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [
+        {
+	       "portB": "transitionin",
+	       "modelB": "carddetails",
+	       "portA": "transitionout",
+	       "modelA": "aborted"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "aborted",
+	       "portA": "transitionout",
+	       "modelA": "confirmdetails"
+        }
+      ]
+    },  
+    {
+      "name": "completed",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [
+        {
+	       "portB": "transitionin",
+	       "modelB": "carddetails",
+	       "portA": "transitionout",
+	       "modelA": "completed"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "completed",
+	       "portA": "transitionout",
+	       "modelA": "confirmdetails"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "refunded",
+	       "portA": "transitionout",
+	       "modelA": "completed"
+        }
+      ]
+    },
+	{
+      "name": "refunded",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [ 
+        {
+	       "portB": "transitionin",
+	       "modelB": "carddetails",
+	       "portA": "transitionout",
+	       "modelA": "refunded"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "refunded",
+	       "portA": "transitionout",
+	       "modelA": "completed"
+        }
+      ]
+    }, 
+	{
+      "name": "confirmdetails",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [
+        {
+	       "portB": "transitionin",
+	       "modelB": "confirmdetails",
+	       "portA": "transitionout",
+	       "modelA": "carddetails"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "aborted",
+	       "portA": "transitionout",
+	       "modelA": "confirmdetails"
+        },
+        {
+	       "portB": "transitionin",
+	       "modelB": "completed",
+	       "portA": "transitionout",
+	       "modelA": "confirmdetails"
+        }
+      ]
+    }
+  ],
+  "size": 7,
+  "palette": null
+}

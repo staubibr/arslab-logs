@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="256.84171mm" height="135.98378mm" viewBox="0 0 256.84171 135.98378" version="1.1" id="svg945" inkscape:version="1.0 (4035a4fb49, 2020-05-01)" sodipodi:docname="diagram - Copy.svg">
+  <style id="style2">.svg-arrow { stroke:#000000; } .svg-label { font-style: italic; font-size: 3.5px; font-family: sans-serif; } .svg-marker { overflow:visible; } .svg-path { fill:none; stroke:#000000; stroke-width:0.2px; stroke-linecap:butt; stroke-linejoin:miter; stroke-opacity:1; } .svg-model { fill:none;stroke:#000000; stroke-width:0.24; stroke-miterlimit:4; stroke-opacity:1 } .svg-model.svg-coupled { stroke-dasharray: 2, 1; stroke-dashoffset:0; } .svg-label.large { font-style:normal; font-size:4.9px; }</style>
+  <defs id="defs939">
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0" refX="0" id="marker1053" style="overflow:visible" inkscape:isstock="true">
+      <path id="path1051" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0" refX="0" id="marker1043" style="overflow:visible" inkscape:isstock="true">
+      <path id="path1041" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0" refX="0" id="marker1033" style="overflow:visible" inkscape:isstock="true">
+      <path id="path1031" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0" refX="0" id="marker1023" style="overflow:visible" inkscape:isstock="true">
+      <path id="path1021" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0" refX="0" id="marker1013" style="overflow:visible" inkscape:isstock="true">
+      <path id="path1011" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker inkscape:collect="always" inkscape:isstock="true" style="overflow:visible" id="marker2267" refX="0" refY="0" orient="auto" inkscape:stockid="Arrow1Lend" class="svg-marker">
+      <path transform="matrix(-0.8,0,0,-0.8,-10,0)" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" d="M 0,0 5,-5 -12.5,0 5,5 Z" id="path2265" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Lend" orient="auto" refY="0" refX="0" id="marker2197" style="overflow:visible" inkscape:isstock="true" inkscape:collect="always" class="svg-marker">
+      <path id="path2195" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker inkscape:isstock="true" style="overflow:visible" id="marker2133" refX="0" refY="0" orient="auto" inkscape:stockid="Arrow1Lend" inkscape:collect="always" class="svg-marker">
+      <path transform="matrix(-0.8,0,0,-0.8,-10,0)" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" d="M 0,0 5,-5 -12.5,0 5,5 Z" id="path2131" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Lend" orient="auto" refY="0" refX="0" id="marker2075" style="overflow:visible" inkscape:isstock="true" inkscape:collect="always" class="svg-marker">
+      <path id="path2073" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker inkscape:isstock="true" style="overflow:visible" id="marker2023" refX="0" refY="0" orient="auto" inkscape:stockid="Arrow1Lend" inkscape:collect="always" class="svg-marker">
+      <path transform="matrix(-0.8,0,0,-0.8,-10,0)" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" d="M 0,0 5,-5 -12.5,0 5,5 Z" id="path2021" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Lend" orient="auto" refY="0" refX="0" id="marker1977" style="overflow:visible" inkscape:isstock="true" inkscape:collect="always" class="svg-marker">
+      <path id="path1975" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker inkscape:isstock="true" style="overflow:visible" id="marker1937" refX="0" refY="0" orient="auto" inkscape:stockid="Arrow1Lend" inkscape:collect="always" class="svg-marker">
+      <path transform="matrix(-0.8,0,0,-0.8,-10,0)" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" d="M 0,0 5,-5 -12.5,0 5,5 Z" id="path1935" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Lend" orient="auto" refY="0" refX="0" id="Arrow1Lend" style="overflow:visible" inkscape:isstock="true" inkscape:collect="always" class="svg-marker">
+      <path id="path1614" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Lstart" orient="auto" refY="0" refX="0" id="marker1889" style="overflow:visible" inkscape:isstock="true" class="svg-marker">
+      <path id="path1887" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Lstart" orient="auto" refY="0" refX="0" id="Arrow1Lstart" style="overflow:visible" inkscape:isstock="true" class="svg-marker">
+      <path id="path1611" d="M 0,0 5,-5 -12.5,0 5,5 Z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1" transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.98994949" inkscape:cx="519.48403" inkscape:cy="257.52966" inkscape:document-units="mm" inkscape:current-layer="layer1" inkscape:document-rotation="0" showgrid="false" inkscape:snap-bbox="true" inkscape:snap-bbox-midpoints="true" inkscape:object-paths="true" inkscape:snap-intersection-paths="true" inkscape:window-width="1920" inkscape:window-height="1001" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" />
+  <metadata id="metadata942">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(58.532522,-5.0270839)">
+    <circle style="fill:none;stroke:#000000;stroke-width:0.264999;stop-color:#000000" id="Circenteronlinelibrary" cx="37.98661" cy="86.556549" r="17.103422" inkscape:label="Circenteronlinelibrary" type="atomic" name="enteronlinelibrary" class="svg-model" />
+    <text xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" x="21.340807" y="87.541847" id="Labelenteronlinelibrary" inkscape:label="Labelenteronlinelibrary" class="svg-label">
+<tspan sodipodi:role="line" id="tspan1512" x="21.340807" y="87.541847" style="stroke-width:0.264583">enteronlinelibrary</tspan>
+</text>
+    <text id="iPortenteronlinelibrary1" y="65.943573" x="15.52501" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve" inkscape:label="iPortenteronlinelibrary1" model="enteronlinelibrary" name="transitionIn" type="iPort">
+<tspan style="stroke-width:0.264583" y="65.943573" x="15.52501" id="tspan1512-0-1-1" sodipodi:role="line">transitionIn</tspan>
+</text>
+    <text id="iPortenteronlinelibrary2" y="108.7067" x="13.119584" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve" inkscape:label="iPortenteronlinelibrary2" model="enteronlinelibrary" name="transitionIn" type="iPort">
+<tspan style="stroke-width:0.264583" y="108.7067" x="13.119584" id="tspan1512-0-1-1-1-9" sodipodi:role="line">transitionIn</tspan>
+</text>
+    <text xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" x="55.88271" y="89.196022" id="iPortenteronlinelibrary3" inkscape:label="iPortenteronlinelibrary3" model="enteronlinelibrary" name="transitionIn" type="iPort">
+<tspan sodipodi:role="line" id="tspan1512-0-1-1-1" x="55.88271" y="89.196022" style="stroke-width:0.264583">transitionIn</tspan>
+</text>
+    <text xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" x="53.358082" y="75.850632" id="oPortenteronlinelibrary" inkscape:label="oPortenteronlinelibrary" model="enteronlinelibrary" name="transitionOut" type="oPort">
+<tspan sodipodi:role="line" id="tspan1512-0-1-7-6" x="53.358082" y="75.850632" style="stroke-width:0.264583">transitionOut</tspan>
+</text>
+    <circle r="17.103422" cy="51.215775" cx="84.288696" id="Circsearching" style="fill:none;stroke:#000000;stroke-width:0.264999;stop-color:#000000" inkscape:label="Circsearching" type="atomic" name="searching" class="svg-model" />
+    <text id="Labelsearching" y="52.191597" x="75.523537" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve" inkscape:label="Labelsearching">
+<tspan style="stroke-width:0.264583" y="52.191597" x="75.523537" id="tspan1512-0" sodipodi:role="line">searching</tspan>
+</text>
+    <text xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" x="47.628708" y="59.775116" id="iPortsearching1" inkscape:label="iPortsearching1" model="searching" name="transitionIn" type="iPort">
+<tspan sodipodi:role="line" id="tspan1512-0-1" x="47.628708" y="59.775116" style="stroke-width:0.264583">transitionIn</tspan>
+</text>
+    <text id="oPortsearching1" y="40.82024" x="98.111305" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve" inkscape:label="oPortsearching1" model="searching" name="transitionOut" type="oPort">
+<tspan style="stroke-width:0.264583" y="40.82024" x="98.111305" id="tspan1512-0-1-7" sodipodi:role="line">transitionOut</tspan>
+</text>
+    <text xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" x="98.526634" y="64.892586" id="oPortsearching2" inkscape:label="oPortsearching2">
+<tspan sodipodi:role="line" id="tspan1512-0-1-7-2" x="98.526634" y="64.892586" style="stroke-width:0.264583">transitionOut</tspan>
+</text>
+    <circle r="17.103422" cy="99.785713" cx="99.21875" id="path1510-3" style="fill:none;stroke:#000000;stroke-width:0.264999;stop-color:#000000" type="atomic" name="libraryaddr" class="svg-model" />
+    <text id="Labellibraryaddress" y="100.77101" x="85.92157" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve" inkscape:label="Labellibraryaddress" class="svg-label">
+<tspan style="stroke-width:0.264583" y="100.77101" x="85.92157" sodipodi:role="line" id="tspan1547">libraryaddress</tspan>
+</text>
+    <text id="iPortlibraryaddress" y="82.247009" x="101.85307" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve" inkscape:label="iPortlibraryaddress" model="libraryaddr" name="transitionIn" type="iPort">
+<tspan style="stroke-width:0.264583" y="82.247009" x="101.85307" id="tspan1512-0-1-2" sodipodi:role="line">transitionIn</tspan>
+</text>
+    <text xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" x="58.703468" y="101.77578" id="oPortlibraryaddress" inkscape:label="oPortlibraryaddress" model="libraryaddr" name="transitionOut" type="oPort">
+<tspan sodipodi:role="line" id="tspan1512-0-1-7-67" x="58.703468" y="101.77578" style="stroke-width:0.264583">transitionOut</tspan>
+</text>
+    <text type="iPort" name="transitionIn" model="libraryaddr" inkscape:label="iPortlibraryaddress" xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" x="82.074631" y="121.4846" id="iPortlibraryaddress-3">
+<tspan sodipodi:role="line" id="tspan1512-0-1-2-4" x="82.074631" y="121.4846" style="stroke-width:0.264583">transitionIn</tspan>
+</text>
+
+    <circle style="fill:none;stroke:#000000;stroke-width:0.264999;stop-color:#000000" id="Circlogin" cx="164.9866" cy="40.821426" r="17.103422" inkscape:label="Circlogin" type="atomic" name="login" class="svg-model" />
+    <text xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" x="160.21257" y="41.748154" id="Labellogin" inkscape:label="Labellogin" class="svg-label">
+<tspan sodipodi:role="line" id="tspan1512-0-6" x="160.21257" y="41.748154" style="stroke-width:0.264583">login</tspan>
+</text>
+    <text xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" x="127.24368" y="47.234707" id="iPortlogin" model="login" name="transitionIn" type="iPort">
+<tspan sodipodi:role="line" id="tspan1512-0-1-2-0" x="127.24368" y="47.234707" style="stroke-width:0.264583">transitionIn</tspan>
+</text>
+    <text xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" x="139.9534" y="62.219883" id="oPortlogin2" inkscape:label="oPortlogin2" model="login" name="transitionOut" type="oPort">
+<tspan sodipodi:role="line" id="tspan1512-0-1-7-67-2-8" x="139.9534" y="62.219883" style="stroke-width:0.264583">transitionOut</tspan>
+</text>
+    <text id="oPortlogin1" y="22.129457" x="167.74944" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve" inkscape:label="oPortlogin1" model="login" name="transitionOut" type="oPort">
+<tspan style="stroke-width:0.264583" y="22.129457" x="167.74944" id="tspan1512-0-1-7-67-2-8-3" sodipodi:role="line">transitionOut</tspan>
+</text>
+    <circle r="17.103422" cy="105.83334" cx="165.74255" id="Circdownload" style="fill:none;stroke:#000000;stroke-width:0.264999;stop-color:#000000" inkscape:label="Circdownload" type="atomic" name="download" class="svg-model" />
+    <text id="Labeldownload" y="107.14678" x="157.02045" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve" inkscape:label="Labeldownload" class="svg-label">
+download
+</text>
+    <text id="iPortdownload" y="88.126945" x="140.87442" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve" inkscape:label="iPortdownload" model="download" name="transitionIn" type="iPort">
+<tspan style="stroke-width:0.264583" y="88.126945" x="140.87442" id="tspan1512-0-1-1-1-7" sodipodi:role="line">transitionIn</tspan>
+</text>
+    <text id="oPortdownload" y="127.43365" x="141.55704" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve" inkscape:label="oPortdownload" model="download" name="transitionOut" type="oPort">
+<tspan style="stroke-width:0.264583" y="127.43365" x="141.55704" id="tspan1512-0-1-7-67-2" sodipodi:role="line">transitionOut</tspan>
+</text>
+
+<circle class="svg-model" name="input_reader" type="atomic" inkscape:label="Circenteronlinelibrary" r="17.103422" cy="86.355583" cx="-41.2966" id="Circenteronlinelibrary-7" style="fill:none;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-opacity:1;stop-color:#000000" />
+<text class="svg-label" inkscape:label="Labelenteronlinelibrary" id="Labelenteronlinelibrary-2" y="87.340881" x="-53.04435" style="font-style:italic;font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve"><tspan style="stroke-width:0.264583" y="87.340881" x="-53.04435" id="tspan1512-2" sodipodi:role="line">Input Reader</tspan></text>
+
+    <path style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1937)" d="M 164.9866,23.718004 V 10.583333 H 40.065475 v 58.996603" id="link1" inkscape:label="link1" type="link" modelA="login" portA="transitionOut" modelB="enteronlinelibrary" portB="transitionIn" class="svg-path" />
+    <path style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)" d="m 167.16292,122.87768 v 8.09107 H 36.096725 v -27.41351" id="link2" inkscape:label="link2" type="link" modelA="download" portA="transitionOut" modelB="enteronlinelibrary" portB="transitionIn" class="svg-path" />
+    <path style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2197)" d="m 165.69863,57.91002 0.0439,30.819899" id="link3" inkscape:label="link3" type="link" modelA="login" portA="transitionOut" modelB="download" portB="transitionIn" class="svg-path" />
+    <path style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2267)" d="m 156.5289,26.229809 c 0,0 -3.04059,-11.50827 -7.76485,-11.92087 -5.10194,-0.44558 -10.97849,6.12728 -10.49033,11.22532 0.42912,4.48139 10.92645,7.93826 10.92645,7.93826" id="Link4" sodipodi:nodetypes="caac" inkscape:label="Link4" type="link" modelA="login" portA="transitionOut" modelB="login" portB="transitionIn" class="svg-path" />
+    <path style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1977)" d="m 100.45781,45.640214 47.42924,-5.182605" id="Link5" inkscape:label="Link5" type="link" modelA="searching" portA="transitionOut" modelB="login" portB="transitionIn" class="svg-path" />
+    <path style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2023)" d="M 50.346257,74.734274 70.000203,60.616094" id="Link6" inkscape:label="Link6" type="link" modelA="enteronlinelibrary" portA="transitionOut" modelB="searching" portB="transitionIn" class="svg-path" />
+    <path style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2075)" d="M 95.293928,64.308211 99.41091,82.68337" id="Link7" inkscape:label="Link7" type="link" modelA="searching" portA="transitionOut" modelB="libraryaddr" portB="transitionIn" class="svg-path" />
+    <path style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2133)" d="M 82.226511,97.838685 54.378285,91.439173" id="Link8" inkscape:label="Link8" type="link" modelA="libraryaddr" portA="transitionOut" modelB="enteronlinelibrary" portB="transitionIn" class="svg-path" />
+
+    <text type="oPort" name="out" model="input_reader" inkscape:label="oPortinput_reader" id="oPortenteronlinelibrary-9" y="80.15448" x="-24.019907" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve">
+<tspan style="stroke-width:0.264583" y="80.15448" x="-24.019907" id="tspan1512-0-1-7-6-0" sodipodi:role="line">out</tspan>
+</text>
+    <path type="link" modelA="input_reader" portA="out" modelB="enteronlinelibrary" portB="transitionIn" class="svg-path" id="path1001" d="M -24.193178,86.355583 H 20.884369" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1033)" />
+    <path type="link" modelA="input_reader" portA="out" modelB="searching" portB="transitionIn" class="svg-path" id="path1003" d="M -24.461637,83.33713 H 10.864031 V 47.870684 h 56.651548" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1023)" />
+    <path type="link" modelA="input_reader" portA="out" modelB="libraryaddr" portB="transitionIn" class="svg-path" id="path1005" d="m -24.397439,88.991 h 34.977988 v 27.67135 h 85.862212" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1043)" />
+    <path type="link" modelA="input_reader" portA="out" modelB="login" portB="transitionIn" class="svg-path" id="path1007" d="M -25.171869,80.65294 H 7.9478088 V 24.058185 5.1593754 H 195.78888 V 43.712947 h -13.94505" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1013)" />
+    <path type="link" modelA="input_reader" portA="out" modelB="download" portB="transitionIn" class="svg-path" id="path1009" d="M -25.151348,91.999863 H 7.2128178 V 140.87857 H 198.17689 v -34.74504 h -15.33355" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1053)" />
+  </g>
+</svg>

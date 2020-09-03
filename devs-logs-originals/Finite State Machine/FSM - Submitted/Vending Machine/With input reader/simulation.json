@@ -1,0 +1,285 @@
+{
+  "name": "VendingMachinLeOG",
+  "simulator": "Cadmium",
+  "type": "DEVS",
+  "models": [
+    {
+      "name": "zero",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [
+        {
+          "portA": "transitionout",
+          "modelA": "zero",
+          "portB": "transitionin",
+          "modelB": "one"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "zero",
+          "portB": "transitionin",
+          "modelB": "two"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "three",
+          "portB": "transitionin",
+          "modelB": "zero"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "five",
+          "portB": "transitionin",
+          "modelB": "zero"
+        }
+      ]
+    },
+    {
+      "name": "one",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [
+        {
+          "portA": "transitionout",
+          "modelA": "zero",
+          "portB": "transitionin",
+          "modelB": "one"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "one",
+          "portB": "transitionin",
+          "modelB": "two"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "one",
+          "portB": "transitionin",
+          "modelB": "three"
+        }
+      ]
+    },
+    {
+      "name": "two",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [
+        {
+          "portA": "transitionout",
+          "modelA": "zero",
+          "portB": "transitionin",
+          "modelB": "two"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "two",
+          "portB": "transitionin",
+          "modelB": "three"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "two",
+          "portB": "transitionin",
+          "modelB": "four"
+        }
+      ]
+    },
+    {
+      "name": "three",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [
+        {
+          "portA": "transitionout",
+          "modelA": "one",
+          "portB": "transitionin",
+          "modelB": "three"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "two",
+          "portB": "transitionin",
+          "modelB": "three"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "three",
+          "portB": "transitionin",
+          "modelB": "four"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "three",
+          "portB": "transitionin",
+          "modelB": "five"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "three",
+          "portB": "transitionin",
+          "modelB": "zero"
+        }
+      ]
+    },
+    {
+      "name": "four",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [
+        {
+          "portA": "transitionout",
+          "modelA": "two",
+          "portB": "transitionin",
+          "modelB": "four"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "three",
+          "portB": "transitionin",
+          "modelB": "four"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "four",
+          "portB": "transitionin",
+          "modelB": "five"
+        }
+      ]
+    },
+    {
+      "name": "five",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "transitionin",
+          "type": "input"
+        },
+        {
+          "name": "transitionout",
+          "type": "output"
+        }
+      ],
+      "links": [
+        {
+          "portA": "transitionout",
+          "modelA": "three",
+          "portB": "transitionin",
+          "modelB": "five"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "four",
+          "portB": "transitionin",
+          "modelB": "five"
+        },
+        {
+          "portA": "transitionout",
+          "modelA": "five",
+          "portB": "transitionin",
+          "modelB": "zero"
+        }
+      ]
+    },
+    {
+      "name": "input_reader",
+      "type": "atomic",
+      "submodels": [],
+      "ports": [
+        {
+          "name": "out",
+          "type": "output"
+        }
+      ],
+      "links": [
+        {
+          "portA": "out",
+          "modelA": "input_reader",
+          "portB": "transitionin",
+          "modelB": "zero"
+        },
+        {
+          "portA": "out",
+          "modelA": "input_reader",
+          "portB": "transitionin",
+          "modelB": "one"
+        },
+        {
+          "portA": "out",
+          "modelA": "input_reader",
+          "portB": "transitionin",
+          "modelB": "two"
+        },
+        {
+          "portA": "out",
+          "modelA": "input_reader",
+          "portB": "transitionin",
+          "modelB": "three"
+        },
+        {
+          "portA": "out",
+          "modelA": "input_reader",
+          "portB": "transitionin",
+          "modelB": "four"
+        },
+        {
+          "portA": "out",
+          "modelA": "input_reader",
+          "portB": "transitionin",
+          "modelB": "five"
+        }
+      ]
+    }
+  ],
+  "size": 7
+}

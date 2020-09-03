@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="diagram.svg" inkscape:version="1.0 (4035a4fb49, 2020-05-01)" id="svg900" version="1.1" viewBox="0 0 183.98857 125.18571" height="125.18571mm" width="183.98857mm">
+  <style>
+    .svg-arrow {
+      stroke:#000000;
+    }
+    
+    .svg-label {
+      font-style: italic;
+      font-size: 3.5px;
+      font-family: sans-serif;
+    }
+    
+    .svg-marker {
+      overflow:visible;
+     }
+    
+    .svg-path {
+      fill:none;
+      stroke:#000000;
+      stroke-width:0.2px;
+      stroke-linecap:butt;
+      stroke-linejoin:miter;
+      stroke-opacity:1;
+     }
+         
+     .svg-model {
+      fill:none;stroke:#000000;
+      stroke-width:0.24;
+      stroke-miterlimit:4;
+      stroke-opacity:1
+      }
+      
+      .svg-model.svg-coupled {
+      stroke-dasharray: 2, 1;
+      stroke-dashoffset:0;
+      }
+      
+      .svg-label.large {
+      font-style:normal;
+      font-size:4.9px;
+      }
+  </style>
+  <defs id="defs894">
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0.0" refX="0.0" id="marker1945" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1943" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0.0" refX="0.0" id="marker1935" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1933" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0.0" refX="0.0" id="marker1925" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1923" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0.0" refX="0.0" id="marker1915" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1913" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0.0" refX="0.0" id="marker1905" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1903" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0.0" refX="0.0" id="marker1895" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1893" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0.0" refX="0.0" id="marker1885" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1883" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0.0" refX="0.0" id="marker1875" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1873" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0.0" refX="0.0" id="marker1865" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1863" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0.0" refX="0.0" id="marker1855" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1853" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker class="svg-marker" inkscape:stockid="Arrow1Lend" orient="auto" refY="0.0" refX="0.0" id="marker1845" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1843" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview inkscape:window-maximized="1" inkscape:window-y="-9" inkscape:window-x="-9" inkscape:window-height="1001" inkscape:window-width="1920" inkscape:guide-bbox="true" showguides="true" inkscape:snap-intersection-paths="true" inkscape:object-paths="true" inkscape:snap-bbox-midpoints="true" inkscape:snap-bbox="true" showgrid="false" inkscape:document-rotation="0" inkscape:current-layer="layer1" inkscape:document-units="mm" inkscape:cy="209.67035" inkscape:cx="387.90482" inkscape:zoom="1.4" inkscape:pageshadow="2" inkscape:pageopacity="0.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" />
+  <metadata id="metadata897">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform="translate(-42.363355,-18.766518)" id="layer1" inkscape:groupmode="layer" inkscape:label="Layer 1">
+
+<circle type="atomic" name="Zero" class="svg-model" inkscape:label="CircZero" r="13.229842" cy="82.586288" cx="55.725697" id="CircZero" style="fill:none;stroke:#000000;stroke-width:0.264999;stop-color:#000000" />
+<text inkscape:label="LabelZero" id="LabelZero" y="83.842026" x="51.675133" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve"><tspan style="stroke-width:0.264583" y="83.842026" x="51.675133" id="tspan1463" sodipodi:role="line">Zero</tspan></text>
+
+<circle type="atomic" name="one" class="svg-model" inkscape:label="Circone" style="fill:none;stroke:#000000;stroke-width:0.264999;stop-color:#000000" id="Circone" cx="107.15625" cy="41.199406" r="13.229842" />
+<text inkscape:label="Labelone" xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" x="103.588" y="42.481838" id="Labelone"><tspan sodipodi:role="line" id="tspan1463-9" x="103.588" y="42.481838" style="stroke-width:0.264583">one</tspan></text>
+
+<circle type="atomic" name="two" class="svg-model" inkscape:label="Circtwo" r="13.229842" cy="122.84226" cx="107.15625" id="Circtwo" style="fill:none;stroke:#000000;stroke-width:0.264999;stop-color:#000000" />
+<text inkscape:label="Labeltwo" id="Labeltwo" y="124.098" x="103.8171" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve"><tspan style="stroke-width:0.264583" y="124.098" x="103.8171" id="tspan1463-9-9" sodipodi:role="line">two</tspan></text>
+ 
+<circle type="atomic" name="three" class="svg-model" inkscape:label="Circthree" r="13.229842" cy="40.632439" cx="168.95535" id="Circthree" style="fill:none;stroke:#000000;stroke-width:0.264999;stop-color:#000000" />
+<text inkscape:label="Labelthree" id="Labelthree" y="41.950184" x="163.98065" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve"><tspan style="stroke-width:0.264583" y="41.950184" x="163.98065" id="tspan1463-9-5" sodipodi:role="line">three</tspan></text>
+
+<circle type="atomic" name="four" class="svg-model" inkscape:label="Circfour" r="13.229842" cy="122.84224" cx="168.91486" id="Circfour" style="fill:none;stroke:#000000;stroke-width:0.264999;stop-color:#000000" />
+<text inkscape:label="Labelfour" id="Labelfour" y="124.09799" x="164.8643" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve"><tspan style="stroke-width:0.264583" y="124.09799" x="164.8643" id="tspan1463-9-96" sodipodi:role="line">four</tspan></text>
+
+<circle type="atomic" name="five" class="svg-model" inkscape:label="Circfive" r="13.229842" cy="82.586281" cx="212.98958" id="Circfive" style="fill:none;stroke:#000000;stroke-width:0.264999;stop-color:#000000" />
+<text inkscape:label="Labelfive" id="Labelfive" y="83.854935" x="209.32401" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve"><tspan style="stroke-width:0.264583" y="83.854935" x="209.32401" id="tspan1463-9-8" sodipodi:role="line">five</tspan></text>
+
+<path type="link" modelA="Zero" portA="transitionout" modelB="one" portB="transitionin" class="svg-path" inkscape:label="Link1" id="Link1" d="M 64.006647,72.268606 95.76261,47.923518" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1845)" />
+<path type="link" modelA="Zero" portA="transitionout" modelB="two" portB="transitionin" class="svg-path" inkscape:label="Link2" id="Link2" d="M 65.656758,91.327154 95.43331,116.71026" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1865)" />
+<path type="link" modelA="one" portA="transitionout" modelB="two" portB="transitionin" class="svg-path" inkscape:label="Link3" id="Link3" d="M 107.15625,54.429247 V 109.61242" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1855)" />
+<path type="link" modelA="one" portA="transitionout" modelB="three" portB="transitionin" class="svg-path" inkscape:label="Link4" id="Link4" d="m 120.38609,41.199405 35.35157,2.4e-5" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1885)" />
+<path type="link" modelA="two" portA="transitionout" modelB="three" portB="transitionin" class="svg-path" inkscape:label="Link5" id="Link5" d="M 115.84196,112.86293 160.89804,51.125694" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1875)" />
+<path type="link" modelA="two" portA="transitionout" modelB="four" portB="transitionin" class="svg-path" inkscape:label="Link6" id="Link6" d="m 120.38609,122.84226 h 35.29892" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1895)" />
+<path type="link" modelA="three" portA="transitionout" modelB="four" portB="transitionin" class="svg-path" inkscape:label="Link7" id="Link7" d="M 168.95535,53.862279 V 109.61246" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1905)" />
+<path type="link" modelA="three" portA="transitionout" modelB="five" portB="transitionin" class="svg-path" inkscape:label="Link8" id="Link8" d="m 180.39637,47.275612 23.23759,25.956463" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1925)" />
+<path type="link" modelA="four" portA="transitionout" modelB="five" portB="transitionin" class="svg-path" inkscape:label="Link9" id="Link9" d="M 178.00886,113.2335 203.45023,91.753043" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1915)" />
+<path type="link" modelA="three" portA="transitionout" modelB="Zero" portB="transitionin" class="svg-path" inkscape:label="Link10" id="Link10" d="M 168.95535,27.402597 V 18.898809 H 54.806548 v 50.489603" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1945)" />
+<path type="link" modelA="five" portA="transitionout" modelB="Zero" portB="transitionin" class="svg-path" inkscape:label="Link11" id="Link11" d="M 213.17854,95.814773 V 143.81994 H 56.129464 V 95.809966" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1935)" />
+  </g>
+</svg>

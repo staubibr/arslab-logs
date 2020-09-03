@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="297mm" height="210mm" viewBox="0 0 297 210" version="1.1" id="svg162" inkscape:version="1.0 (4035a4fb49, 2020-05-01)" sodipodi:docname="diagram.svg">
+  <style id="style2">.svg-arrow { stroke:#000000; } .svg-label { font-style: italic; font-size: 3.5px; font-family: sans-serif; } .svg-marker { overflow:visible; } .svg-path { fill:none; stroke:#000000; stroke-width:0.2px; stroke-linecap:butt; stroke-linejoin:miter; stroke-opacity:1; } .svg-model { fill:none;stroke:#000000; stroke-width:0.24; stroke-miterlimit:4; stroke-opacity:1 } .svg-model.svg-coupled { stroke-dasharray: 2, 1; stroke-dashoffset:0; } .svg-label.large { font-style:normal; font-size:4.9px; }</style>
+  <defs id="defs156">
+    <marker inkscape:stockid="Arrow1Lend" class="svg-marker" orient="auto" refY="0.0" refX="0.0" id="marker1706" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1704" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker inkscape:isstock="true" class="svg-marker" style="overflow:visible;" id="marker1974" refX="0.0" refY="0.0" orient="auto" inkscape:stockid="Arrow1Lend" inkscape:collect="always">
+      <path transform="scale(0.8) rotate(180) translate(12.5,0)" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" id="path1972" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Lend" class="svg-marker" orient="auto" refY="0.0" refX="0.0" id="marker1832" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1830" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Lend" class="svg-marker" orient="auto" refY="0.0" refX="0.0" id="marker1812" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1810" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Lend" class="svg-marker" orient="auto" refY="0.0" refX="0.0" id="marker1802" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1800" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Lend" class="svg-marker" orient="auto" refY="0.0" refX="0.0" id="marker1792" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1790" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Lend" class="svg-marker" orient="auto" refY="0.0" refX="0.0" id="marker1782" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1780" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker inkscape:isstock="true" class="svg-marker" style="overflow:visible;" id="marker1712" refX="0.0" refY="0.0" orient="auto" inkscape:stockid="Arrow1Lend">
+      <path transform="scale(0.8) rotate(180) translate(12.5,0)" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" id="path1710" />
+    </marker>
+    <marker inkscape:isstock="true" class="svg-marker" style="overflow:visible;" id="marker1642" refX="0.0" refY="0.0" orient="auto" inkscape:stockid="Arrow1Lend">
+      <path transform="scale(0.8) rotate(180) translate(12.5,0)" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" id="path1640" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Lend" class="svg-marker" orient="auto" refY="0.0" refX="0.0" id="marker1528" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1526" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker inkscape:stockid="Arrow1Lend" class="svg-marker" orient="auto" refY="0.0" refX="0.0" id="marker1506" style="overflow:visible;" inkscape:isstock="true">
+      <path id="path1504" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1" transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <rect x="72.949402" y="146.65475" width="50.270832" height="28.726191" id="rect187" />
+  </defs>
+  <sodipodi:namedview inkscape:snap-nodes="true" inkscape:guide-bbox="true" id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.98994949" inkscape:cx="527.8233" inkscape:cy="439.58679" inkscape:document-units="mm" inkscape:current-layer="layer1" inkscape:document-rotation="0" showgrid="false" inkscape:snap-bbox="true" inkscape:snap-bbox-midpoints="true" inkscape:snap-bbox-edge-midpoints="true" inkscape:bbox-nodes="false" inkscape:bbox-paths="false" inkscape:window-width="1920" inkscape:window-height="1001" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:snap-intersection-paths="true" inkscape:snap-smooth-nodes="false" inkscape:snap-midpoints="true" inkscape:object-paths="false" showguides="false" />
+  <metadata id="metadata159">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+    <text id="Label_tempset" class="svg-label" y="45.30714" x="79.952354" style="font-size:3.88056px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" xml:space="preserve">
+TempSet
+</text>
+    <rect style="fill:none;stroke:#000000;stroke-width:0.264999" id="rect_Label_tempset" width="51.782734" height="16.252975" x="69.606926" y="36.134724" class="svg-model" name="tempset" type="atomic" />
+    <text id="tempset_pOut1" class="svg-label" model="tempset" name="transitionout" type="oPort" y="139.00145" x="134.69659" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.5951;stroke-width:0.264583" xml:space="preserve" transform="translate(-37.771821,-82.234846)">
+<tspan x="134.69659" y="139.00145">
+  <tspan>transitionout</tspan>
+</tspan>
+</text>
+    <text xml:space="preserve" class="svg-label" model="tempset" name="transitionin" type="iPort" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.6606;stroke-width:0.264583" x="223.00594" y="72.949409" id="tempset_pIn1" transform="translate(-98.945913,-32.919074)">
+<tspan x="223.00594" y="72.949409">
+  <tspan>transitionin</tspan>
+</tspan>
+</text>
+    <text transform="translate(-177.11714,-33.344811)" class="svg-label" model="tempset" name="transitionin" type="iPort" id="tempset_pIn2" y="72.949409" x="223.00594" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.6606;stroke-width:0.264583" xml:space="preserve">
+<tspan x="223.00594" y="72.949409">
+  <tspan>transitionin</tspan>
+</tspan>
+</text>
+    <text x="214.99329" y="45.67189" class="svg-label" id="Label_aircondon">AirCondOn</text>
+    <rect y="36.13472" x="195.28467" height="16.252975" width="51.782734" id="rect_aircondon" class="svg-model" name="aircondon" type="atomic" style="fill:none;stroke:#000000;stroke-width:0.264999" />
+    <text transform="translate(34.69744,-99.087221)" class="svg-label" model="aircondon" name="transitionout" type="oPort" xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.5951;stroke-width:0.264583" x="134.69659" y="139.00145" id="aircondon_pOut1">
+<tspan x="134.69659" y="139.00145">
+  <tspan>transitionout</tspan>
+</tspan>
+</text>
+    <text xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.6606;stroke-width:0.264583" class="svg-label" model="aircondon" name="transitionin" type="iPort" x="223.00594" y="72.949409" id="aircondon_pIn1" transform="translate(2.2577944,-15.625792)">
+<tspan x="223.00594" y="72.949409">
+  <tspan>transitionin</tspan>
+</tspan>
+</text>
+    <text xml:space="preserve" style="font-size:3.88056px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" x="203.05414" y="91.561058" class="svg-label" id="Label_tempsense">
+TempSense
+</text>
+    <rect y="82.388641" x="195.2847" height="16.252975" width="51.782734" id="rect_tempsense" class="svg-model" name="tempsense" type="atomic" style="fill:none;stroke:#000000;stroke-width:0.264999" />
+    <text id="tempsense_pOut1" class="svg-label" model="tempsense" name="transitionout" type="oPort" y="139.00145" x="134.69659" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.5951;stroke-width:0.264583" xml:space="preserve" transform="translate(88.84424,-60.701711)">
+<tspan x="134.69659" y="139.00145">
+  <tspan>transitionout</tspan>
+</tspan>
+</text>
+    <text transform="translate(89.980135,-34.562034)" class="svg-label" model="tempsense" name="transitionout" type="oPort" xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.5951;stroke-width:0.264583" x="134.69659" y="139.00145" id="tempsense_pOut2">
+<tspan x="134.69659" y="139.00145">
+  <tspan>transitionout</tspan>
+</tspan>
+</text>
+    <text xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.6606;stroke-width:0.264583" class="svg-label" model="tempsense" name="transitionin" type="iPort" x="223.00594" y="72.949409" id="tempsense_pIn1" transform="translate(-58.38837,11.038219)">
+<tspan x="223.00594" y="72.949409">
+  <tspan>transitionin</tspan>
+</tspan>
+</text>
+    <text xml:space="preserve" x="210.97824" y="133.50319" class="svg-label" id="Label_Heater_ON">
+HeaterON
+</text>
+    <rect y="123.96603" x="195.2847" height="16.252975" width="51.782734" id="rect_Heater_ON" class="svg-model" name="heateron" type="atomic" style="fill:none;stroke:#000000;stroke-width:0.264999" />
+    <text transform="translate(33.127781,-1.4507886)" xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.5951;stroke-width:0.264583" class="svg-label" model="heateron" name="transitionout" type="oPort" x="134.69659" y="139.00145" id="Heater_ON_pOut1">
+<tspan x="134.69659" y="139.00145">
+  <tspan>transitionout</tspan>
+</tspan>
+</text>
+    <text id="Heater_ON_pOut2" class="svg-label" model="heateron" name="transitionout" type="oPort" y="139.00145" x="134.69659" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.5951;stroke-width:0.264583" xml:space="preserve" transform="translate(87.054806,6.3121771)">
+<tspan x="134.69659" y="139.00145">
+  <tspan>transitionout</tspan>
+</tspan>
+</text>
+    <text xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.6606;stroke-width:0.264583" class="svg-label" model="heateron" name="transitionin" type="iPort" x="223.00594" y="72.949409" id="Heater_ON_pIn1" transform="translate(-0.12361301,45.666593)">
+<tspan x="223.00594" y="72.949409">
+  <tspan>transitionin</tspan>
+</tspan>
+</text>
+    <text xml:space="preserve" style="font-size:3.88056px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583" x="202.87793" y="176.3419" class="svg-label" id="Label_codetectalarm">
+CODetectAlarm
+</text>
+    <rect y="166.77063" x="195.2847" height="16.252975" width="51.782734" id="rect_codetectalarm" class="svg-model" name="codetectalarm" type="atomic" style="fill:none;stroke:#000000;stroke-width:0.264999" />
+    <text transform="translate(34.19686,30.930305)" class="svg-label" model="codetectalarm" name="transitionout" type="oPort" xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.5951;stroke-width:0.264583" x="134.69659" y="139.00145" id="codetectalarm_pOut1">
+<tspan x="134.69659" y="139.00145">
+  <tspan>transitionout</tspan>
+</tspan>
+</text>
+    <text xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.6606;stroke-width:0.264583" class="svg-label" model="codetectalarm" name="transitionin" type="iPort" x="223.00594" y="72.949409" id="codetectalarm_pIn1" transform="translate(2.2818125,90.342081)">
+<tspan x="223.00594" y="72.949409">
+  <tspan>transitionin</tspan>
+</tspan>
+</text>
+    <text xml:space="preserve" x="84.094864" y="133.13844" class="svg-label" id="Label_codetectok">
+CODetectOK
+</text>
+    <rect y="123.96603" x="73.749435" height="16.252975" width="51.782734" id="rect_codetectok" class="svg-model" name="codetectok" type="atomic" style="fill:none;stroke:#000000;stroke-width:0.264999" />
+    <text transform="translate(-86.271192,-9.6159561)" class="svg-label" model="codetectok" name="transitionout" type="oPort" xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.5951;stroke-width:0.264583" x="134.69659" y="139.00145" id="codetectok_pOut1">
+<tspan x="134.69659" y="139.00145">
+  <tspan>transitionout</tspan>
+</tspan>
+</text>
+    <text xml:space="preserve" style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;inline-size:31.6606;stroke-width:0.264583" class="svg-label" model="codetectok" name="transitionin" type="iPort" x="223.00594" y="72.949409" id="codetectok_pIn1" transform="translate(-94.397381,55.555568)">
+<tspan x="223.00594" y="72.949409">
+  <tspan>transitionin</tspan>
+</tspan>
+</text>
+    <path id="Link1" d="M 195.27841,174.90742 H 43.294019 V 44.356657 l 26.312907,-0.09545" style="fill:none;stroke:#000000;stroke-width:0.252261px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1802)" sodipodi:nodetypes="cccc" class="svg-path" portB="transitionin" modelB="tempset" portA="transitionout" modelA="codetectalarm" type="link" />
+    <path style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1706)" d="M 73.749434,132.09251 H 44.506697 V 46.68006 l 25.100229,0" id="Link2" class="svg-path" portB="transitionin" modelB="tempset" portA="transitionout" modelA="codetectok" type="link" />
+    <path id="Link3" d="m 195.79832,44.261211 -73.89501,-5e-6" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1974)" class="svg-path" portB="transitionin" modelB="tempset" portA="transitionout" modelA="aircondon" type="link" />
+    <path id="Link4" d="m 95.49829,52.3877 -0.0831,38.216668 h 99.8695" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1832)" class="svg-path" portB="transitionin" modelB="tempsense" portA="transitionout" modelA="tempset" type="link" />
+    <path id="Link5" d="m 221.17606,82.38864 -2e-5,-30.000945" style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1712)" class="svg-path" portB="transitionin" modelB="aircondon" portA="transitionout" modelA="tempsense" type="link" />
+    <path id="Link6" d="M 221.17606,98.641616 V 123.96602" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1782)" class="svg-path" portB="transitionin" modelB="heateron" portA="transitionout" modelA="tempsense" type="link" />
+    <path id="Link7" d="m 195.28469,132.09251 -69.75251,0" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1812)" class="svg-path" portB="transitionin" modelB="codetectok" portA="transitionout" modelA="heateron" type="link" />
+    <path id="Link8" d="m 221.17606,139.70535 v 26.55163" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1792)" class="svg-path" portB="transitionin" modelB="codetectalarm" portA="transitionout" modelA="heateron" type="link" />
+  </g>
+</svg>
