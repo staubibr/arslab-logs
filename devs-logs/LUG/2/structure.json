@@ -1,1 +1,1 @@
-{"info":{"simulator":"CDpp","name":"LUG","type":"Cell-DEVS"},"nodes":[{"name":"lug","size":[100,100,2],"type":"atomic"}],"ports":[{"model":"lug","name":"out","type":"output","template":"{\"value\":${0}}"}]}
+{"info":{"simulator":"CDpp","name":"LUG","type":"Cell-DEVS"},"nodes":[{"name":"lug","type":"coupled","size":[100,100,2]}],"ports":[{"model":"lug","name":"out","type":"output"}]}

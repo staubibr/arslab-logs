@@ -6,7 +6,6 @@
     },
     "nodes": [{
             "name": "top",
-            "submodels": ["f1"],
             "type": "coupled",
 			"svg":[]
         }, {
@@ -27,7 +26,6 @@
 			"svg":["#m-10", "#t-10"]
         }, {
             "name": "sm",
-            "submodels": ["que_sm"],
             "type": "coupled",
 			"svg":["#m-12"]
         }, {
@@ -40,7 +38,6 @@
 			"svg":["#m-08", "#t-08"]
         }, {
             "name": "wm",
-            "submodels": ["que_wm"],
             "type": "coupled",
 			"svg":["#m-11"]
         }, {
@@ -53,7 +50,6 @@
 			"svg":["#m-07", "#t-07"]
         }, {
             "name": "hm",
-            "submodels": ["que_hm"],
             "type": "coupled",
 			"svg":["#m-13"]
         }, {
@@ -69,543 +65,435 @@
     "ports": [{
             "model": "f1",
             "name": "in_stop",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "f1",
             "name": "out_water_field",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f1",
             "name": "out_water_surface",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f1",
             "name": "out_water_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f1",
             "name": "out_sower_field",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f1",
             "name": "out_sower_surface",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f1",
             "name": "out_sower_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f1",
             "name": "out_harvest_field",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f1",
             "name": "out_harvest_surface",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f1",
             "name": "out_harvest_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f1",
             "name": "in_done",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "f2",
             "name": "in_stop",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "f2",
             "name": "out_water_field",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f2",
             "name": "out_water_surface",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f2",
             "name": "out_water_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f2",
             "name": "out_sower_field",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f2",
             "name": "out_sower_surface",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f2",
             "name": "out_sower_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f2",
             "name": "out_harvest_field",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f2",
             "name": "out_harvest_surface",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f2",
             "name": "out_harvest_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f2",
             "name": "in_done",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "f3",
             "name": "in_stop",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "f3",
             "name": "out_water_field",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f3",
             "name": "out_water_surface",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f3",
             "name": "out_water_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f3",
             "name": "out_sower_field",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f3",
             "name": "out_sower_surface",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f3",
             "name": "out_sower_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f3",
             "name": "out_harvest_field",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f3",
             "name": "out_harvest_surface",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f3",
             "name": "out_harvest_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "f3",
             "name": "in_done",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "harvester",
             "name": "in_id",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "harvester",
             "name": "in_surface",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "harvester",
             "name": "in_type",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "harvester",
             "name": "out_id",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "harvester",
             "name": "out_bushels",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "harvester",
             "name": "out_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "hm",
             "name": "in_field",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "hm",
             "name": "in_surface",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "hm",
             "name": "in_type",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "hm",
             "name": "out_field_1",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "hm",
             "name": "out_field_2",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "hm",
             "name": "out_field_3",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "hm",
             "name": "out_bushels",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "hm",
             "name": "out_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "irrigator",
             "name": "in_id",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "irrigator",
             "name": "in_surface",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "irrigator",
             "name": "in_type",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "irrigator",
             "name": "out_id",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "market",
             "name": "in_bushels",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "market",
             "name": "in_type",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "market",
             "name": "out_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "market",
             "name": "out_bushels",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "market",
             "name": "out_sales",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_hm",
             "name": "in_surface",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "que_hm",
             "name": "in_field",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "que_hm",
             "name": "in_type",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "que_hm",
             "name": "out_id",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_hm",
             "name": "out_surface",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_hm",
             "name": "out_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_hm",
             "name": "in_done",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "que_hm",
             "name": "out_field_1",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_hm",
             "name": "out_field_2",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_hm",
             "name": "out_field_3",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_sm",
             "name": "in_surface",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "que_sm",
             "name": "in_field",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "que_sm",
             "name": "in_type",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "que_sm",
             "name": "out_id",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_sm",
             "name": "out_surface",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_sm",
             "name": "out_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_sm",
             "name": "in_done",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "que_sm",
             "name": "out_field_1",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_sm",
             "name": "out_field_2",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_sm",
             "name": "out_field_3",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_wm",
             "name": "in_surface",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "que_wm",
             "name": "in_field",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "que_wm",
             "name": "in_type",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "que_wm",
             "name": "out_id",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_wm",
             "name": "out_surface",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_wm",
             "name": "out_type",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_wm",
             "name": "in_done",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "que_wm",
             "name": "out_field_1",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_wm",
             "name": "out_field_2",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "que_wm",
             "name": "out_field_3",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "sm",
             "name": "in_field",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "sm",
             "name": "in_surface",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "sm",
             "name": "in_type",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "sm",
             "name": "out_field_1",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "sm",
             "name": "out_field_2",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "sm",
             "name": "out_field_3",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "sower",
             "name": "in_id",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "sower",
             "name": "in_surface",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "sower",
             "name": "in_type",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "sower",
             "name": "out_id",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "top",
             "name": "in_stop_f1",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "top",
             "name": "in_stop_f2",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "top",
             "name": "in_stop_f3",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "top",
             "name": "out_type",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "top",
             "name": "out_bushels",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "top",
             "name": "out_sales",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "wm",
             "name": "in_field",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "wm",
             "name": "in_surface",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "wm",
             "name": "in_type",
-            "type": "input",
-            "template": "{\"value\":${0}}"
+            "type": "input"
         }, {
             "model": "wm",
             "name": "out_field_1",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "wm",
             "name": "out_field_2",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }, {
             "model": "wm",
             "name": "out_field_3",
-            "type": "output",
-            "template": "{\"value\":${0}}"
+            "type": "output"
         }
     ],
     "links": [{

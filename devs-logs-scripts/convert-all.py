@@ -28,7 +28,7 @@ for curr, dirs, files in os.walk(iFolder):
     for f in files:
         body.append(('files', open(f, 'rb')))
 
-    url = "http://192.168.0.148:8081/parser/auto"
+    url = "http://localhost:8080/parser/auto"
 
     r = requests.post(url, files=body, stream=True)
 

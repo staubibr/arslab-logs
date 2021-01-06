@@ -1,1 +1,1 @@
-{"info":{"simulator":"CDpp","name":"avian flu","type":"Cell-DEVS"},"nodes":[{"name":"flu","size":[35,35,1],"type":"atomic"}],"ports":[{"model":"flu","name":"out","type":"output","template":"{\"value\":${0}}"}]}
+{"info":{"simulator":"CDpp","name":"avian flu","type":"Cell-DEVS"},"nodes":[{"name":"flu","type":"coupled","size":[35,35,1]}],"ports":[{"model":"flu","name":"out","type":"output"}]}

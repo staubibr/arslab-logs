@@ -1,0 +1,276 @@
+{
+    "id": "TOP",
+    "type": "coupled",
+    "ports": {
+        "out": [
+            {
+                "name": "outp_pack",
+                "message_type": "--",
+                "port_kind": "out"
+            },
+            {
+                "name": "outp_ack",
+                "message_type": "--",
+                "port_kind": "out"
+            }
+        ]
+    },
+    "ic": [
+        {
+            "from_model": "input_reader",
+            "from_port": "out",
+            "to_model": "ABP",
+            "to_port": "inp_control"
+        }
+    ],
+    "eoc": [
+        {
+            "from_model": "ABP",
+            "from_port": "outp_pack",
+            "to_port": "outp_pack"
+        },
+        {
+            "from_model": "ABP",
+            "from_port": "outp_ack",
+            "to_port": "outp_ack"
+        }
+    ],
+    "models": [
+        {
+            "id": "input_reader",
+            "type": "atomic",
+            "ports": {
+                "out": [
+                    {
+                        "name": "out",
+                        "message_type": "--",
+                        "port_kind": "out"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ABP",
+            "type": "coupled",
+            "ports": {
+                "out": [
+                    {
+                        "name": "outp_ack",
+                        "message_type": "--",
+                        "port_kind": "out"
+                    },
+                    {
+                        "name": "outp_pack",
+                        "message_type": "--",
+                        "port_kind": "out"
+                    }
+                ],
+                "in": [
+                    {
+                        "name": "inp_control",
+                        "message_type": "--",
+                        "port_kind": "in"
+                    }
+                ]
+            },
+            "ic": [
+                {
+                    "from_model": "sender1",
+                    "from_port": "dataOut",
+                    "to_model": "Network",
+                    "to_port": "inp_1"
+                },
+                {
+                    "from_model": "Network",
+                    "from_port": "outp_2",
+                    "to_model": "sender1",
+                    "to_port": "ackIn"
+                },
+                {
+                    "from_model": "receiver1",
+                    "from_port": "out",
+                    "to_model": "Network",
+                    "to_port": "inp_2"
+                },
+                {
+                    "from_model": "Network",
+                    "from_port": "outp_1",
+                    "to_model": "receiver1",
+                    "to_port": "in"
+                }
+            ],
+            "eic": [
+                {
+                    "from_port": "inp_control",
+                    "to_model": "sender1",
+                    "to_port": "controlIn"
+                }
+            ],
+            "eoc": [
+                {
+                    "from_model": "sender1",
+                    "from_port": "packetSentOut",
+                    "to_port": "outp_pack"
+                },
+                {
+                    "from_model": "sender1",
+                    "from_port": "ackReceivedOut",
+                    "to_port": "outp_ack"
+                }
+            ],
+            "models": [
+                {
+                    "id": "sender1",
+                    "type": "atomic",
+                    "ports": {
+                        "out": [
+                            {
+                                "name": "packetSentOut",
+                                "message_type": "--",
+                                "port_kind": "out"
+                            },
+                            {
+                                "name": "ackReceivedOut",
+                                "message_type": "--",
+                                "port_kind": "out"
+                            },
+                            {
+                                "name": "dataOut",
+                                "message_type": "--",
+                                "port_kind": "out"
+                            }
+                        ],
+                        "in": [
+                            {
+                                "name": "controlIn",
+                                "message_type": "--",
+                                "port_kind": "in"
+                            },
+                            {
+                                "name": "ackIn",
+                                "message_type": "--",
+                                "port_kind": "in"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "receiver1",
+                    "type": "atomic",
+                    "ports": {
+                        "out": [
+                            {
+                                "name": "out",
+                                "message_type": "--",
+                                "port_kind": "out"
+                            }
+                        ],
+                        "in": [
+                            {
+                                "name": "in",
+                                "message_type": "--",
+                                "port_kind": "in"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "Network",
+                    "type": "coupled",
+                    "ports": {
+                        "out": [
+                            {
+                                "name": "outp_1",
+                                "message_type": "--",
+                                "port_kind": "out"
+                            },
+                            {
+                                "name": "outp_2",
+                                "message_type": "--",
+                                "port_kind": "out"
+                            }
+                        ],
+                        "in": [
+                            {
+                                "name": "inp_1",
+                                "message_type": "--",
+                                "port_kind": "in"
+                            },
+                            {
+                                "name": "inp_2",
+                                "message_type": "--",
+                                "port_kind": "in"
+                            }
+                        ]
+                    },
+                    "eic": [
+                        {
+                            "from_port": "inp_1",
+                            "to_model": "subnet1",
+                            "to_port": "in"
+                        },
+                        {
+                            "from_port": "inp_2",
+                            "to_model": "subnet2",
+                            "to_port": "in"
+                        }
+                    ],
+                    "eoc": [
+                        {
+                            "from_model": "subnet1",
+                            "from_port": "out",
+                            "to_port": "outp_1"
+                        },
+                        {
+                            "from_model": "subnet2",
+                            "from_port": "out",
+                            "to_port": "outp_2"
+                        }
+                    ],
+                    "models": [
+                        {
+                            "id": "subnet1",
+                            "type": "atomic",
+                            "ports": {
+                                "out": [
+                                    {
+                                        "name": "out",
+                                        "message_type": "--",
+                                        "port_kind": "out"
+                                    }
+                                ],
+                                "in": [
+                                    {
+                                        "name": "in",
+                                        "message_type": "--",
+                                        "port_kind": "in"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "subnet2",
+                            "type": "atomic",
+                            "ports": {
+                                "out": [
+                                    {
+                                        "name": "out",
+                                        "message_type": "--",
+                                        "port_kind": "out"
+                                    }
+                                ],
+                                "in": [
+                                    {
+                                        "name": "in",
+                                        "message_type": "--",
+                                        "port_kind": "in"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
