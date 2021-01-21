@@ -34,91 +34,109 @@
             "model": "network",
             "name": "in1",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": ["#p-05"]
         }, {
             "model": "network",
             "name": "out1",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-06"]
         }, {
             "model": "network",
             "name": "in2",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": ["#p-03"]
         }, {
             "model": "network",
             "name": "out2",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-04"]
         }, {
             "model": "receiver",
             "name": "in",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": ["#p-09"]
         }, {
             "model": "receiver",
             "name": "out",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-10"]
         }, {
             "model": "sender",
             "name": "controlin",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": ["#p-15"]
         }, {
             "model": "sender",
             "name": "dataout",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-12"]
         }, {
             "model": "sender",
             "name": "ackin",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": ["#p-16"]
         }, {
             "model": "sender",
             "name": "packetsent",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-13"]
         }, {
             "model": "sender",
             "name": "ackreceived",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-14"]
         }, {
             "model": "subnet1",
             "name": "in",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": ["#p-01"]
         }, {
             "model": "subnet1",
             "name": "out",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-02"]
         }, {
             "model": "subnet2",
             "name": "in",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": ["#p-07"]
         }, {
             "model": "subnet2",
             "name": "out",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-08"]
         }, {
             "model": "top",
             "name": "controlin",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": []
         }, {
             "model": "top",
             "name": "packetsent",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": []
         }, {
             "model": "top",
             "name": "ackreceived",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": []
         }
     ],

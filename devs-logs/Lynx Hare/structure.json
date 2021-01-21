@@ -1,1 +1,1 @@
-{"info":{"simulator":"CDpp","name":"LynxHare","type":"Cell-DEVS"},"nodes":[{"name":"lynxhare","type":"coupled","size":[20,20,1]}],"ports":[{"model":"lynxhare","name":"out","type":"output"}]}
+{"info":{"simulator":"CDpp","name":"LynxHare","type":"Cell-DEVS"},"nodes":[{"name":"lynxhare","type":"coupled","template":"[\"out\"]","size":[20,20,1]}],"ports":[{"model":"lynxhare","name":"out","type":"output"}]}

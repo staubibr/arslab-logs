@@ -39,106 +39,127 @@
             "model": "TOP",
             "name": "outp_pack",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": []
         }, {
             "model": "TOP",
             "name": "outp_ack",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": []
         }, {
             "model": "input_reader",
             "name": "out",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": []
         }, {
             "model": "ABP",
             "name": "inp_control",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": []
         }, {
             "model": "ABP",
             "name": "outp_ack",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": []
         }, {
             "model": "ABP",
             "name": "outp_pack",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": []
         }, {
             "model": "sender1",
             "name": "controlIn",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": ["#p-15"]
         }, {
             "model": "sender1",
             "name": "ackIn",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": ["#p-16"]
         }, {
             "model": "sender1",
             "name": "packetSentOut",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-13"]
         }, {
             "model": "sender1",
             "name": "ackReceivedOut",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-14"]
         }, {
             "model": "sender1",
             "name": "dataOut",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-12"]
         }, {
             "model": "receiver1",
             "name": "in",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": ["#p-09"]
         }, {
             "model": "receiver1",
             "name": "out",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-10"]
         }, {
             "model": "Network",
             "name": "inp_1",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": ["#p-05"]
         }, {
             "model": "Network",
             "name": "inp_2",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": ["#p-03"]
         }, {
             "model": "Network",
             "name": "outp_1",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-06"]
         }, {
             "model": "Network",
             "name": "outp_2",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-04"]
         }, {
             "model": "subnet1",
             "name": "in",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": ["#p-01"]
         }, {
             "model": "subnet1",
             "name": "out",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-02"]
         }, {
             "model": "subnet2",
             "name": "in",
             "type": "input",
+            "template": "[\"value\"]",
 			"svg": ["#p-07"]
         }, {
             "model": "subnet2",
             "name": "out",
             "type": "output",
+            "template": "[\"value\"]",
 			"svg": ["#p-08"]
         }
     ],

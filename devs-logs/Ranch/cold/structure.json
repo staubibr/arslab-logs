@@ -1,1 +1,1 @@
-{"info":{"simulator":"CDpp","name":"sheepsCOLD","type":"Cell-DEVS"},"nodes":[{"name":"sheeps","type":"coupled","size":[20,20,1]}],"ports":[{"model":"sheeps","name":"out","type":"output"}]}
+{"info":{"simulator":"CDpp","name":"sheepsCOLD","type":"Cell-DEVS"},"nodes":[{"name":"sheeps","type":"coupled","template":"[\"out\"]","size":[20,20,1]}],"ports":[{"model":"sheeps","name":"out","type":"output"}]}

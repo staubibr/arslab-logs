@@ -1,0 +1,1 @@
+{"info":{"simulator":"CDpp","name":"covid","type":"Cell-DEVS"},"nodes":[{"name":"population","type":"coupled","template":"[\"out\"]","size":[200,200,1]}],"ports":[{"model":"population","name":"out","type":"output"}]}

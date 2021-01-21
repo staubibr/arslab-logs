@@ -1,1 +1,1 @@
-{"info":{"simulator":"CDpp","name":"food_chain","type":"Cell-DEVS"},"nodes":[{"name":"food_chain","type":"coupled","size":[20,20,1]}],"ports":[{"model":"food_chain","name":"out","type":"output"}]}
+{"info":{"simulator":"CDpp","name":"food_chain","type":"Cell-DEVS"},"nodes":[{"name":"food_chain","type":"coupled","template":"[\"out\"]","size":[20,20,1]}],"ports":[{"model":"food_chain","name":"out","type":"output"}]}
