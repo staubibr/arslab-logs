@@ -1,211 +1,277 @@
 {
     "info": {
         "simulator": "CDpp",
-        "name": "abp",
+        "name": "ABP",
         "type": "DEVS"
     },
-    "nodes": [{
+    "model_types": [{
             "name": "top",
-            "type": "coupled",
-			"svg": []
+            "template": "[\"packetsent\",\"ackreceived\",\"controlin\"]",
+            "type": "coupled"
         }, {
             "name": "sender",
-            "type": "atomic",
-			"svg": ["#t-05", "#m-05"]
-        }, {
-            "name": "receiver",
-            "type": "atomic",
-			"svg": ["#t-04", "#m-04"]
+            "template": "[\"controlin\",\"dataout\",\"ackin\",\"packetsent\",\"ackreceived\"]",
+            "type": "atomic"
         }, {
             "name": "network",
-            "type": "coupled",
-			"svg": ["#t-01", "#m-01"]
+            "template": "[\"in1\",\"in2\",\"out1\",\"out2\"]",
+            "type": "coupled"
         }, {
-            "name": "subnet1",
-            "type": "atomic",
-			"svg": ["#t-02", "#m-02"]
+            "name": "receiver",
+            "template": "[\"in\",\"out\"]",
+            "type": "atomic"
         }, {
-            "name": "subnet2",
-            "type": "atomic",
-			"svg": ["#t-03", "#m-03"]
+            "name": "subnet",
+            "template": "[\"in\",\"out\"]",
+            "type": "atomic"
         }
     ],
-    "ports": [{
-            "model": "network",
-            "name": "in1",
-            "type": "input",
-            "template": "[\"value\"]",
-			"svg": ["#p-05"]
-        }, {
-            "model": "network",
-            "name": "out1",
+    "port_types": [{
+            "name": "packetsent",
             "type": "output",
-            "template": "[\"value\"]",
-			"svg": ["#p-06"]
+            "template": "[\"out\"]",
+            "model_type": 0
         }, {
-            "model": "network",
-            "name": "in2",
-            "type": "input",
-            "template": "[\"value\"]",
-			"svg": ["#p-03"]
-        }, {
-            "model": "network",
-            "name": "out2",
+            "name": "ackreceived",
             "type": "output",
-            "template": "[\"value\"]",
-			"svg": ["#p-04"]
+            "template": "[\"out\"]",
+            "model_type": 0
         }, {
-            "model": "receiver",
-            "name": "in",
-            "type": "input",
-            "template": "[\"value\"]",
-			"svg": ["#p-09"]
-        }, {
-            "model": "receiver",
-            "name": "out",
-            "type": "output",
-            "template": "[\"value\"]",
-			"svg": ["#p-10"]
-        }, {
-            "model": "sender",
             "name": "controlin",
             "type": "input",
-            "template": "[\"value\"]",
-			"svg": ["#p-15"]
+            "template": "[\"out\"]",
+            "model_type": 0
         }, {
-            "model": "sender",
+            "name": "controlin",
+            "type": "input",
+            "template": "[\"out\"]",
+            "model_type": 1
+        }, {
             "name": "dataout",
             "type": "output",
-            "template": "[\"value\"]",
-			"svg": ["#p-12"]
+            "template": "[\"out\"]",
+            "model_type": 1
         }, {
-            "model": "sender",
             "name": "ackin",
             "type": "input",
-            "template": "[\"value\"]",
-			"svg": ["#p-16"]
+            "template": "[\"out\"]",
+            "model_type": 1
         }, {
-            "model": "sender",
             "name": "packetsent",
             "type": "output",
-            "template": "[\"value\"]",
-			"svg": ["#p-13"]
+            "template": "[\"out\"]",
+            "model_type": 1
         }, {
-            "model": "sender",
             "name": "ackreceived",
             "type": "output",
-            "template": "[\"value\"]",
-			"svg": ["#p-14"]
+            "template": "[\"out\"]",
+            "model_type": 1
         }, {
-            "model": "subnet1",
+            "name": "in1",
+            "type": "output",
+            "template": "[\"out\"]",
+            "model_type": 2
+        }, {
+            "name": "in2",
+            "type": "output",
+            "template": "[\"out\"]",
+            "model_type": 2
+        }, {
+            "name": "out1",
+            "type": "output",
+            "template": "[\"out\"]",
+            "model_type": 2
+        }, {
+            "name": "out2",
+            "type": "output",
+            "template": "[\"out\"]",
+            "model_type": 2
+        }, {
             "name": "in",
             "type": "input",
-            "template": "[\"value\"]",
-			"svg": ["#p-01"]
+            "template": "[\"out\"]",
+            "model_type": 3
         }, {
-            "model": "subnet1",
             "name": "out",
             "type": "output",
-            "template": "[\"value\"]",
-			"svg": ["#p-02"]
+            "template": "[\"out\"]",
+            "model_type": 3
         }, {
-            "model": "subnet2",
             "name": "in",
             "type": "input",
-            "template": "[\"value\"]",
-			"svg": ["#p-07"]
+            "template": "[\"out\"]",
+            "model_type": 4
         }, {
-            "model": "subnet2",
             "name": "out",
             "type": "output",
-            "template": "[\"value\"]",
-			"svg": ["#p-08"]
+            "template": "[\"out\"]",
+            "model_type": 4
+        }
+    ],
+    "nodes": [{
+            "id": "top",
+            "model_type": 0,
+            "svg": []
         }, {
-            "model": "top",
-            "name": "controlin",
-            "type": "output",
-            "template": "[\"value\"]",
-			"svg": []
+            "model_id": "top",
+            "port_type": 0,
+            "svg": []
         }, {
-            "model": "top",
-            "name": "packetsent",
-            "type": "input",
-            "template": "[\"value\"]",
-			"svg": []
+            "model_id": "top",
+            "port_type": 1,
+            "svg": []
         }, {
-            "model": "top",
-            "name": "ackreceived",
-            "type": "input",
-            "template": "[\"value\"]",
-			"svg": []
+            "model_id": "top",
+            "port_type": 2,
+            "svg": []
+        }, {
+            "id": "sender",
+            "model_type": 1,
+            "svg": ["#t-05", "#m-05"]
+        }, {
+            "model_id": "sender",
+            "port_type": 3,
+            "svg": ["#p-15"]
+        }, {
+            "model_id": "sender",
+            "port_type": 4,
+            "svg": ["#p-12"]
+        }, {
+            "model_id": "sender",
+            "port_type": 5,
+            "svg": ["#p-16"]
+        }, {
+            "model_id": "sender",
+            "port_type": 6,
+            "svg": ["#p-13"]
+        }, {
+            "model_id": "sender",
+            "port_type": 7,
+            "svg": ["#p-14"]
+        }, {
+            "id": "network",
+            "model_type": 2,
+            "svg": ["#t-01", "#m-01"]
+        }, {
+            "model_id": "network",
+            "port_type": 8,
+            "svg": ["#p-05"]
+        }, {
+            "model_id": "network",
+            "port_type": 9,
+            "svg": ["#p-03"]
+        }, {
+            "model_id": "network",
+            "port_type": 10,
+            "svg": ["#p-06"]
+        }, {
+            "model_id": "network",
+            "port_type": 11,
+            "svg": ["#p-04"]
+        }, {
+            "id": "receiver",
+            "model_type": 3,
+            "svg": ["#t-04", "#m-04"]
+        }, {
+            "model_id": "receiver",
+            "port_type": 12,
+            "svg": ["#p-09"]
+        }, {
+            "model_id": "receiver",
+            "port_type": 13,
+            "svg": ["#p-10"]
+        }, {
+            "id": "subnet1",
+            "model_type": 4,
+            "svg": ["#t-02", "#m-02"]
+        }, {
+            "model_id": "subnet1",
+            "port_type": 14,
+            "svg": ["#p-01"]
+        }, {
+            "model_id": "subnet1",
+            "port_type": 15,
+            "svg": ["#p-02"]
+        }, {
+            "id": "subnet2",
+            "model_type": 4,
+            "svg": ["#t-03", "#m-03"]
+        }, {
+            "model_id": "subnet2",
+            "port_type": 14,
+            "svg": ["#p-07"]
+        }, {
+            "model_id": "subnet2",
+            "port_type": 15,
+            "svg": ["#p-08"]
         }
     ],
     "links": [{
-            "modelA": "network",
-            "portA": "out1",
-            "modelB": "receiver",
-            "portB": "in",
-			"svg": ["#l-06"]
-        }, {
-            "modelA": "network",
-            "portA": "out2",
+            "modelA": "top",
+            "portA": "controlin",
             "modelB": "sender",
-            "portB": "ackin",
-			"svg": ["#l-04"]
-        }, {
-            "modelA": "network",
-            "portA": "in1",
-            "modelB": "subnet1",
-            "portB": "in",
-			"svg": ["#l-01"]
-        }, {
-            "modelA": "network",
-            "portA": "in2",
-            "modelB": "subnet2",
-            "portB": "in",
-			"svg": ["#l-07"]
-        }, {
-            "modelA": "receiver",
-            "portA": "out",
-            "modelB": "network",
-            "portB": "in2",
-			"svg": ["#l-08"]
+            "portB": "controlin",
+            "svg": ["#l-11"]
         }, {
             "modelA": "sender",
             "portA": "dataout",
             "modelB": "network",
             "portB": "in1",
-			"svg": ["#l-03"]
+            "svg": ["#l-03"]
+        }, {
+            "modelA": "network",
+            "portA": "out1",
+            "modelB": "receiver",
+            "portB": "in",
+            "svg": ["#l-06"]
+        }, {
+            "modelA": "receiver",
+            "portA": "out",
+            "modelB": "network",
+            "portB": "in2",
+            "svg": ["#l-08"]
+        }, {
+            "modelA": "network",
+            "portA": "out2",
+            "modelB": "sender",
+            "portB": "ackin",
+            "svg": ["#l-04"]
         }, {
             "modelA": "sender",
             "portA": "packetsent",
             "modelB": "top",
             "portB": "packetsent",
-			"svg": ["#l-09"]
+            "svg": ["#l-09"]
         }, {
             "modelA": "sender",
             "portA": "ackreceived",
             "modelB": "top",
             "portB": "ackreceived",
-			"svg": ["#l-10"]
+            "svg": ["#l-10"]
+        }, {
+            "modelA": "network",
+            "portA": "in1",
+            "modelB": "subnet1",
+            "portB": "in",
+            "svg": ["#l-01"]
         }, {
             "modelA": "subnet1",
             "portA": "out",
             "modelB": "network",
             "portB": "out1",
-			"svg": ["#l-05"]
+            "svg": ["#l-05"]
+        }, {
+            "modelA": "network",
+            "portA": "in2",
+            "modelB": "subnet2",
+            "portB": "in",
+            "svg": ["#l-07"]
         }, {
             "modelA": "subnet2",
             "portA": "out",
             "modelB": "network",
             "portB": "out2",
-			"svg": ["#l-02"]
-        }, {
-            "modelA": "top",
-            "portA": "controlin",
-            "modelB": "sender",
-            "portB": "controlin",
-			"svg": ["#l-11"]
+            "svg": ["#l-02"]
         }
     ]
 }

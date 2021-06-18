@@ -1,1 +1,0 @@
-{"info":{"simulator":"Cadmium","name":"output_messages","type":"Cell-DEVS"},"nodes":[{"name":"CO2_model","type":"coupled","template":"[\"counter\",\"CO2 level\",\"map\"]","size":[38,57,1]}],"ports":[{"model":"CO2_model","name":"counter","type":"output"},{"model":"CO2_model","name":"CO2 level","type":"output"},{"model":"CO2_model","name":"map","type":"output"}]}
