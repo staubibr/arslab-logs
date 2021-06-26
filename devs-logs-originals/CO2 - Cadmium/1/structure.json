@@ -1,0 +1,47 @@
+{
+    "info": {
+        "simulator": "Cadmium",
+        "name": "CO2 - Hoda",
+        "type": "Cell-DEVS"
+    },
+    "model_types": [{
+            "name": "top",
+            "template": ["out"],
+            "type": "coupled",
+            "ports": [{
+                    "name": "out",
+                    "type": "output",
+                    "template": ["out"]
+                }
+            ]
+        }, {
+            "name": "CO2_model",
+            "template": ["counter", "CO2 level", "map"],
+            "type": "coupled",
+            "dim": [38, 57, 1],
+            "ports": [{
+                    "name": "counter",
+                    "type": "output",
+                    "template": ["out"]
+                }, {
+                    "name": "CO2 level",
+                    "type": "output",
+                    "template": ["out"]
+                }, {
+                    "name": "map",
+                    "type": "output",
+                    "template": ["out"]
+                }
+            ]
+        }
+    ],
+    "nodes": [{
+            "id": "top",
+            "model_type": 0
+        }, {
+            "id": "room",
+            "model_type": 1
+        }
+    ],
+    "links": []
+}
